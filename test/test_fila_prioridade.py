@@ -2,8 +2,7 @@
 import os.path
 import sys
 from pytest import raises
-# from fila_prioridade import FilaPrioridade
-from fila_prioridade_gabarito import FilaPrioridade
+from fila_prioridade import FilaPrioridade
 
 
 # ---- INÍCIO: teste método is_empty()
