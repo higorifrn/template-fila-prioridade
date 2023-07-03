@@ -42,18 +42,18 @@ class FilaPrioridade:
         pass
 
     
-    # remove o primeiro item da fila de prioridade, caso não esteja vazia, e o retorna o Nó
+    # remove o primeiro item da fila de prioridade, caso não esteja vazia, e retorna o Nó
     # se a fila de prioridade estiver vazia, lança uma exceção: raise Exception("mensagem de erro")
     def remove(self) -> No:
         # implementação do método
         pass
 
 
-    # retorna uma lista com os itens (valor e prioridade) da fila de prioridade 
-    # imprima os itens da fila de prioridade do primeiro para o último
+    # retorna uma lista de tuplas com os itens (valor e prioridade) da fila de prioridade 
+    # imprime os itens da fila de prioridade do primeiro para o último
     # caso a fila de prioridade esteja vazia, imprime uma mensagem informando
-    # que a fila de prioridade está vazia e retorne uma lista vazia
-    def display(self) -> list[str]:
+    # que a fila de prioridade está vazia e retorna uma lista vazia
+    def display(self) -> list[tuple()]:
         # implementação do método
         pass
     
